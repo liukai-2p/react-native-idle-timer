@@ -29,6 +29,7 @@ public class IdleTimerManager extends ReactContextBaseJavaModule
     @ReactMethod
     public void setIdleTimerDisabled(final boolean disabled, final String tag) {
         final Activity activity = this.getCurrentActivity();
+        if(activity == null) return;
         if (disabled) {
             activate(activity, tag);
         } else {

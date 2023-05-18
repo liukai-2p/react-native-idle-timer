@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['repository']['url']
-  s.source         = { :git => 'https://github.com/marcshilling/react-native-idle-timer.git', :tag => s.version }
+  s.source         = { :git => 'https://github.com/liukai-2p/react-native-idle-timer.git', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '7.0'
