@@ -20,6 +20,9 @@
     "timer",
     "dim"
   ],
+  "publishConfig": {
+    "access": "public"
+   },
   "nativePackage": true,
   "main": "index.js",
   "types": "index.d.ts"
